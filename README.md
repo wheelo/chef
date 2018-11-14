@@ -23,8 +23,8 @@
 		// cookie > localStorage > navigator.language
 		// i18n code: https://www.science.co.il/language/Codes.php		
 		.use(I18n, {
-			translations,
-			lng: 'en'
+		  translations,
+		  lng: 'en'
 		});
 		// need init()
 		.init();
