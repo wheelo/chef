@@ -1,5 +1,5 @@
 # chef
-`chef`is a react based tool kit which enables agile plugin development.
+`chef` is a react based tool kit which enables agile plugin development.
 
 ## Usage
 ```javascript
@@ -37,10 +37,13 @@
 ```
 
 ## Dependencies
+- Typescript
+- Lerna
+- yarn
 - jest
 
 ## Epilogue
-  Finally, it updates!
+  Finally, it is updated!
 
 
 
