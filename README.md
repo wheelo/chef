@@ -45,10 +45,10 @@
 - jest
 
 ## TODO
-[ ] babel7 and put them in one folder
-[ ] Typescript
-[ ] UMI or Next.js to route automatically and code generation
-[ ] Create Command Line
+- [ ] Typescript
+- [ ] UMI or Next.js to route automatically and code generation
+- [ ] Create Command Line / babel7 and put them in one folder
+- [ ] SSR && Docker
 
 
 ### [中文文档](https://github.com/wheelo/chef/blob/master/README_ZH.md)
