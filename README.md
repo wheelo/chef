@@ -10,8 +10,7 @@
 * **High performance**, with support for PWA, route-level code splitting, etc. via plugins
 * **command line**, support command line to generate boilerplate && boot dev server && uglify/babelfy codes
 * **Support TypeScript**, all codes are writteen in Typescript, including d.ts definition(TODO)
-* **[dva] model supportive(https://dvajs.com/)**, support duck directory, automatic loading of model, code splitting, etc
-
+* **duck model supportive(https://dvajs.com/)**, support duck directory, automatic loading of model
 
 ## Usage
 ```javascript
