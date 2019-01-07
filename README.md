@@ -1,12 +1,22 @@
 ![new banner](https://raw.githubusercontent.com/wheelo/chef/master/Banner.png)
 
 # chef
-`chef` is a react based tool kit which enables agile plugin development.
+🚀🚀 `chef` is a react based tool kit which enables agile plugin development. All in this one cooker.
+
+## Features
+* **Out of box**, with built-in support range from react, i18n to SSR.
+* **Complete plugin system**, which could easily integrate with user land plugin and built-in i18n, redux, router system, SSR, etc.
+* **Next.js like routing conventions**, which also supports configured routing && dynamic routing generator
+* **High performance**, with support for PWA, route-level code splitting, etc. via plugins
+* **command line**, support command line to generate boilerplate && boot dev server && uglify/babelfy codes
+* **Support TypeScript**, all codes are writteen in Typescript, including d.ts definition(TODO)
+* **[dva] model supportive(https://dvajs.com/)**, support duck directory, automatic loading of model, code splitting, etc
+
 
 ## Usage
 ```javascript
 	// index.js
-	import react from '@chef/chef-react';
+	import chef from '@chef/chef-react';
 	// Redux
 	import Redux from '@chef/chef-redux';
 	// React-router
@@ -19,7 +29,7 @@
 	import reducer from './reducers';
 	import translations from './translations';
 
-	react(root, 'root')
+	chef(root, 'root')
     		// Pugin/config
 		.use(Redux, { reducer })
 		// cookie > localStorage > navigator.language
