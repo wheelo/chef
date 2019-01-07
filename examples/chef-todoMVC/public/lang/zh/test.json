@@ -1,0 +1,10 @@
+{
+  "app_title": "待办 [zh]",
+  "input_placeholder": "需要做什么?",
+  "clear_completed_button": "清除completed",
+  "show_all_button": "所有的",
+  "show_active_button": "活跃的",
+  "show_completed_button": "完成的",
+  "items_left": "${num_items} 项",
+  "no_items_left": "暂时没有数据"
+}

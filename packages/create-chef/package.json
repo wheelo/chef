@@ -1,0 +1,69 @@
+{
+  "name": "@chef/create-chef",
+  "version": "0.0.2",
+  "description": "command line for chef",
+  "bin": {
+    "create-chef": "bin/cli.js"
+  },
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:commonjs": "better-npm-run build-commonjs",
+    "build:es": "better-npm-run build-es",
+    "build:umd": "better-npm-run build-umd",
+    "build": "yarn clean && yarn build:commonjs && yarn build:es && yarn build:umd",
+    "test": "better-npm-run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wheelo/chef/tree/master/packages/create-chef"
+  },
+  "keywords": [
+    "core",
+    "tool",
+    "umi"
+  ],
+  "author": "pengxiaolong <wheelo@163.com>",
+  "license": "MIT",
+  "betterScripts": {
+    "build-commonjs": {
+      "command": "babel src --out-dir dist/commonjs",
+      "env": {
+        "BABEL_ENV": "commonjs"
+      }
+    },
+    "build-es": {
+      "command": "babel src --out-dir dist/es",
+      "env": {
+        "BABEL_ENV": "es"
+      }
+    },
+    "build-umd": {
+      "command": "babel src --out-dir dist/umd",
+      "env": {
+        "BABEL_ENV": "umd"
+      }
+    },
+    "test": {
+      "command": "jest --config jest.json",
+      "env": {
+        "NODE_ENV": "test"
+      }
+    },
+    "tdd": {
+      "command": "jest --config jest.json --watch",
+      "env": {
+        "NODE_ENV": "test"
+      }
+    }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "better-npm-run": "^0.1.1",
+    "rimraf": "^2.6.2"
+  },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com"
+  }
+}

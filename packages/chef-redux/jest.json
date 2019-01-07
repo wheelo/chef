@@ -1,0 +1,11 @@
+{
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.{js,jsx}"],
+  "coverageDirectory": "coverage",
+  "moduleFileExtensions": ["js", "json", "jsx"],
+  "moduleDirectories": ["node_modules", "src"],
+  "coverageReporters": ["html", "text"],
+  "setupFiles": ["./test/setup.js"],
+  "verbose": true,
+  "notify": true
+}

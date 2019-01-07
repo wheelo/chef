@@ -1,3 +1,5 @@
+![new banner](https://raw.githubusercontent.com/wheelo/chef/master/Banner.png)
+
 # chef
 `chef` is a react based tool kit which enables agile plugin development.
 
@@ -42,9 +44,11 @@
 - yarn
 - jest
 
-## Epilogue
-  Finally, it is updated!
-
+## TODO
+[ ] babel7 and put them in one folder
+[ ] Typescript
+[ ] UMI or Next.js to route automatically and code generation
+[ ] Create Command Line
 
 
 ### [中文文档](https://github.com/wheelo/chef/blob/master/README_ZH.md)

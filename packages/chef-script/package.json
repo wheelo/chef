@@ -1,0 +1,27 @@
+{
+  "name": "@chef/chef-script",
+  "version": "0.0.2",
+  "description": "lite tools of chef",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wheelo/chef/tree/master/packages/chef-script"
+  },
+  "keywords": [
+    "chef-cmd",
+    "chef-script",
+    "chef-tools"
+  ],
+  "author": "pengxiaolong",
+  "contributors": [
+    "pengxiaolong <wheelo@163.com>"
+  ],
+  "license": "MIT",
+  "bin": {
+    "chef-script": "./bin/chef-script.js",
+    "chef-cmd": "./bin/chef-cmd.js"
+  },
+  "scripts": {
+    "eslint": "eslint bin/ chef-cmd/ chef-script/",
+    "precommit": "lint-staged"
+  }
+}

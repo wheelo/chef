@@ -1,0 +1,65 @@
+{
+  "name": "chef-todomvc",
+  "version": "0.0.2",
+  "description": "todoMVC demo for chef",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "better-npm-run start",
+    "prod": "better-npm-run prod",
+    "build": "umi build.client.debug && umi build.server",
+    "release": "umi build.client && umi build.server",
+    "test": "better-npm-run test"
+  },
+  "betterScripts": {
+    "start": {
+      "command": "umi start",
+      "env": {
+        "HOST": "localhost",
+        "PORT": "3000"
+      }
+    },
+    "prod": {
+      "command": "umi start.prod",
+      "env": {
+        "HOST": "localhost",
+        "PORT": "3000"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wheelo/chef/tree/master/examples/chef-todoMVC"
+  },
+  "keywords": [
+    "todo",
+    "demo",
+    "chef"
+  ],
+  "author": "pengxiaolong",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@chef/chef-core": "^0.7.4",
+    "@chef/chef-helmet": "^0.6.4",
+    "@chef/chef-i18n": "^0.8.8",
+    "@chef/chef-react": "^0.9.0",
+    "@chef/chef-redux": "^0.10.0",
+    "@chef/chef-router": "^0.8.5",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-config": "^4.4.0-beta.6",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "better-npm-run": "^0.1.1",
+    "offline-plugin": "^5.0.5"
+  },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com"
+  }
+}
