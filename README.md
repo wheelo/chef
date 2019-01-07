@@ -1,4 +1,4 @@
-![new banner](https://raw.githubusercontent.com/wheelo/chef/master/Banner.png)
+![new banner](https://raw.githubusercontent.com/wheelo/chef/master/Banner.jpg)
 
 # chef
 🚀🚀 `chef` is a react based tool kit which enables agile plugin development. All in this one cooker.
